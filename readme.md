@@ -21,3 +21,10 @@ Making a flex sensor with a pencil, a piece of paper, two card paper pieces, two
 Structured a frame for using it on my finger: using two ribbon pieces. Code for actuating a servo based on my finger movement(fingering?). Checkout the [video](https://github.com/Roboramv2/Random-projects/blob/main/3_flexv2/v2demo.mp4).
 
 <img src="./images/flexv2.jpg" width="250"/>
+
+### Home-made pull sensor:
+Making a digital pull sensor out of a hexnut, some cardboard, two wires, a spring, and some glue. Pulling on the sensor closes the connection between the two wires. Thus the two possible resistive states are HIGH and LOW (digital).
+
+Connect red wire to +5v and white wire to voltage reading instrument (such as i/p pin on arduino). Pulling the red wire will cause a signal at white wire.
+
+<img src="./images/pull.jpg" width="100"/>
