@@ -64,6 +64,7 @@ avgmask = np.zeros((s[0], len(avg)), dtype = np.uint8)
 for i in range(avgmask.shape[0]):
     avgmask[i]= avg
 avgmask = cv2.resize(avgmask, s)
+avgmask = cv2. equalizeHist(avgmask)
 cv2.imwrite("avgmask.jpg", avgmask)
 avgmask = process(avgmask)
 
