@@ -26,12 +26,6 @@ A collection of small/random projects that cannot be put in a repository of thei
 * this script will recalibrate the servos. 
 * attach the servos one by one to pin 12 of arduino.
 
-### Indexer:
-* choose a directory to get index for.
-* the script will create an index file for the whole directory.
-* includes proper file types and marks folders as folders.
-* includes proper indentation to show parent child relations.
-
 ### Comms (M2M):
 * python scripts to use mqtt.
 * publish and subscribe information from/to several devices simultaneously.
@@ -44,14 +38,25 @@ A collection of small/random projects that cannot be put in a repository of thei
 * script that sends a phone call using twilio services.
 * script that sends email using smpt and email libraries.
 
-### Speech:
-* getfv script can be used to get feature vector from recorded wav file.
-* record script has two useful functions.
-* 'record' function allows us to record time samples of audio directly using python.
-* 'say' function allows python to play any array as a time sampled audio.
+### Indexer:
+* choose a directory to get index for.
+* the script will create an index file for the whole directory.
+* includes proper file types and marks folders as folders.
+* includes proper indentation to show parent child relations.
 
 ### Localization:
 * opencv trained haarcascade filters are contained in the haarcascade folder.
 * we can use the filters to localize specific items in images.
 * for example: get bounding boxes for human faces, cat faces, etc.
 * localize.py script contains the code for loading and using the filters.
+
+### Speech:
+* getfv script can be used to get feature vector from recorded wav file.
+* record script has two useful functions.
+* 'record' function allows us to record time samples of audio directly using python.
+* 'say' function allows python to play any array as a time sampled audio.
+
+### Resistance:
+* automatic resistance value calculation.
+* implemented as gui, can handle 4 band as well as 5 band resistors.
+* select colors from radio buttons and click calculate to see resistance.
