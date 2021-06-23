@@ -1,4 +1,0 @@
-brown black red - 1 k ohms
-brown black orange - 10 k ohms
-red red brown - 220 ohms
-orange orange brown - 330 ohms
